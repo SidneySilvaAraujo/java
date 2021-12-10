@@ -3,7 +3,7 @@ import nucleo.Funcionario;
 public class FolhaDePagamento {
 	public static void main(String[] args) {
 		Funcionario f1, f2, f3;
-		f1 = new Funcionario();
+		/*f1 = new Funcionario();
 		f2 = new Funcionario();
 		f3 = new Funcionario();
 		//primeiro funcionário;
@@ -20,7 +20,11 @@ public class FolhaDePagamento {
 		f3.setNumeroFuncional(12213412);
 		f3.setNome("Natália da silva Araujo Silverio");
 		f3.setCargo("Analista de Engenharia de ti Senhor");
-		f3.setSalario(12000.0);
+		f3.setSalario(12000.0);*/
+		f1 = new Funcionario(1234, "Sidney da Silva Araujo Silverio", "Reitor", 17000.0);
+		f2 = new Funcionario(5678, "Rogério Serafin de Matos", "Presidente", 40000.0);
+		f3 = new Funcionario(1221342, "Natália da Silva Araujo Silverio", "reitora", 17000.0);
+		//Forma mais eficiente de passar os parámetros para as variáveis, usando método construtor;
 		f1.mostrarDados();
 		f2.mostrarDados();
 		f3.mostrarDados();

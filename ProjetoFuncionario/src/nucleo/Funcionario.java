@@ -6,9 +6,19 @@ public class Funcionario {
 	private String cargo;
 	private double salario;
 	//Os atributos da nossa classe Funcionario agora são privados;
+	
 	public int getNumeroFuncional() {
 		return numeroFuncional;
 	}
+	public Funcionario(int numeroFuncional, String nome, String cargo, double salario) {
+		super();
+		this.numeroFuncional = numeroFuncional;
+		this.nome = nome;
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+	//Fim do método construtor;
+	Para gerar o método construtor. Precionar alt + s, depois precionar A, por último ir até generate, com tab;
 	public void setNumeroFuncional(int numeroFuncional) {
 		this.numeroFuncional = numeroFuncional;
 	}
